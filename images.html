@@ -7,31 +7,63 @@
     <meta name="description" content="A portfolio website made by a student at Thomas More Geel.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/small.css" media="screen">
+    <link rel="stylesheet" href="css/large.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="css/print.css" media="print">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Images</title>
 </head>
 
 <body>
     <main>
-        <h1>Portfolio - Images</h1>
-        <h2>My favourite image</h2>
+        <h1 class="hideonlarge hideonprint showonsmall">Images</h1>
+        <h1 class="hideonsmall showonlarge showonprint">Portfolio - Images</h1>
+        <h2 class="hideonsmall hideonprint showonlarge">My favourite image</h2>
         <figure>
             <img src="images/pexels-tiziano-10476155.jpg" alt="Pikachu zoomed in">
-            <figcaption>Photo of a Pikachu doll zoomed in</figcaption>
+            <figcaption class="hideonprint showonsmall showonlarge">Photo of a Pikachu doll zoomed in</figcaption>
         </figure>
-        <p>
+        <p class="hideonsmall hideonprint showonlarge">
             Pikachu is one of the most popular Pokémon in the world, everyone knows about him. The reason I took this
-            image is because I also really like this Pokémon. In the past, I played a lot of Pokémon games, that's why this has so much meaning to me.
+            image is because I also really like this Pokémon. In the past, I played a lot of Pokémon games, that's why
+            this has so much meaning to me.
         </p>
-        <p>
+        <p class="hideonsmall hideonprint showonlarge">
             This image fits in with the composition techniques because of the zoom in.
         </p>
-        <p>
-            <a href="index.html">Back to homepage</a>
+
+        <table class="hideonlarge showonsmall showonprint">
+            <tr>
+                <th>Composition type</th>
+                <td>Zoom in</td>
+            </tr>
+            <tr>
+                <th>Photographer</th>
+                <td>Tiziano van der Waals</td>
+            </tr>
+            <tr>
+                <th>Direct link</th>
+                <td><span class="hideonprint showonlarge showonsmall"><a href="https://www.pexels.com/photo/10476155/">Pexels</a></span>
+                    <span class="hideonsmall hideonlarge showonprint">https://www.pexels.com/@tiziano-143460652</span>
+                </td>
+            </tr>
+            <tr>
+                <th>Downloads</th>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>Views</th>
+                <td>21</td>
+            </tr>
+        </table>
+
+        <p class="hideonprint showonsmall showonlarge">
+            <a href="index.html">
+                <i class="fas fa-home"></i>Back to homepage</a>
         </p>
+        <footer class="hideonsmall hideonprint showonlarge">Links to <a
+                href="https://www.pexels.com/@tiziano-143460652"><i class="fas fa-camera"></i>Pexels</a> - <a href="https://github.com/JustTizi"><i class="fab fa-github"></i>GitHub</a> - <a href="#">top of page</a></footer>
     </main>
-    <footer>Links to <a href="https://www.pexels.com/@tiziano-143460652">Pexels</a> - <a
-        href="https://github.com/JustTizi">GitHub</a> - <a href="#">top of page</a></footer>
 </body>
 
 </html>

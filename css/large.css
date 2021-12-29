@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1em;
+    text-align: left;
+    
+}
+
+body {
+    background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+main {
+    background: #ebe8e8;
+    padding: 20px;
+    margin: 20px;
+    border: 7px solid #ef357e;
+    border-radius: 30px;
+}
+
+figure img {
+    border: 6px solid #ef357e;
+    border-radius: 30px;
+}
+
+.showonlarge {
+    display: block;
+}
+
+.hideonlarge, table.hideonlarge {
+    display: none;
+}
