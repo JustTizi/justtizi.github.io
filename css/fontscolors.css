@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Merriweather&family=Open+Sans&family=Roboto&family=Shizuru&family=Ubuntu+Mono&family=Waterfall&display=swap');
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fffdd0;
+    color: #353535;
+}
+
+header {
+    border: 1px solid #70ab70;
+    background-color: #eeeec0;
+    padding: 1em;
+    padding-top: 0;
+}
+
+header h1, header ul, header li, header a {
+    background-color: #eeeec0;
+    
+}
+
+header ul, header li {
+    list-style-type: none;
+    padding-left: 0.3em;
+}
+
+aside {
+    margin: 1.5em;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+aside, aside h2, aside p {
+    background-color: #fcfcfc;
+    color: black;
+    padding: 0.5em;
+}
+
+a {
+    color: darkorange;
+    font-size: 1.1em;
+}
+
+a:hover {
+    color: darkred;
+}
+
+aside h2 {
+    font-size: 30px;
+}
+aside p {
+    font-size: 16px;
+}
+
+    /*----------------Fonts----------------*/
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.waterfall {
+    font-family: 'Waterfall', cursive;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.shizuru {
+    font-family: 'Shizuru', cursive;
+}
+
+.ubuntumono {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.opensans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.licorice {
+    font-family: 'Licorice', cursive;
+}
+
+    /*----------------Colors----------------*/
+
+/*----------------Neutral----------------*/
+#neutralaside{
+    border: none;
+    border-top: 15px solid skyblue;
+    border-left: 15px solid #66caca;
+}
+
+#neutralaside, #neutralaside h2, #neutralaside p {
+    background-color: lightblue;
+}
+
+/*----------------Cheap----------------*/
+#cheapaside {
+    border: 4px solid darkblue;
+}
+
+#cheapaside h2 {
+    background-color: orangered;
+}
+
+#cheapaside p {
+    background-color: yellow;
+}
+
+/*----------------Luxury----------------*/
+#luxuryaside {
+    border: 2px solid #663030;
+    border-radius: 16px 0px;
+    box-shadow: 7px 10px lightgrey;
+}
+
+#luxuryaside h2 {
+    color: #7c0834;
+}
+
+
+/*----------------Young----------------*/
+#youngaside, #youngaside h2, #youngaside p {
+    background-color: black;
+}
+
+#youngaside h2, #youngaside p {
+    color: white;
+}
+
+/*----------------Based on a photo----------------*/
+#photobasedaside {
+    border-left: 20px solid #593640;
+    border-top: 15px solid #8c5656;
+}
+
+#photobasedaside, #photobasedaside h2, #photobasedaside p {
+    background-color: #f2e0bd;
+}
+
