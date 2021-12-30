@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+/* --------------------------------Small screen-------------------------------- */
+* {
+    font-family: 'Luxurious Roman', cursive;
+}
+
+header, footer {
+    color: white;
+    background-color: #8c5858;
+    padding: 1px 5px;
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid #392e40;
+    background-color: #f2e0bd;
+}
+
+a {
+    color: darkorange;
+    font-size: 1.1em;
+}
+
+a:hover {
+    color: darkred;
+}
+
+td,
+th {
+    border: 1px solid #392e40;
+}
+
+table,
+td,
+th {
+    padding: 0 auto;
+}
+
+th:first-child,
+th:nth-child(2) {
+    width: 20%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.showonsmall {
+    display: block;
+}
+
+.hideonsmall {
+    display: none;
+}
+
+/* --------------------------------Large screen-------------------------------- */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #f2f2f2;
+    }
+
+    .showonlarge {
+        display: block;
+    }
+
+    .hideonlarge {
+        display: none;
+    }
+}

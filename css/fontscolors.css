@@ -13,12 +13,15 @@ header {
     padding-top: 0;
 }
 
-header h1, header ul, header li, header a {
+header h1,
+header ul,
+header li,
+header a {
     background-color: #eeeec0;
-    
 }
 
-header ul, header li {
+header ul,
+header li {
     list-style-type: none;
     padding-left: 0.3em;
 }
@@ -29,7 +32,9 @@ aside {
     border-radius: 8px;
 }
 
-aside, aside h2, aside p {
+aside,
+aside h2,
+aside p {
     background-color: #fcfcfc;
     color: black;
     padding: 0.5em;
@@ -47,11 +52,12 @@ a:hover {
 aside h2 {
     font-size: 30px;
 }
+
 aside p {
     font-size: 16px;
 }
 
-    /*----------------Fonts----------------*/
+/*----------------Fonts----------------*/
 
 .roboto {
     font-family: 'Roboto', sans-serif;
@@ -81,16 +87,18 @@ aside p {
     font-family: 'Licorice', cursive;
 }
 
-    /*----------------Colors----------------*/
+/*----------------Colors----------------*/
 
 /*----------------Neutral----------------*/
-#neutralaside{
+#neutralaside {
     border: none;
     border-top: 15px solid skyblue;
     border-left: 15px solid #66caca;
 }
 
-#neutralaside, #neutralaside h2, #neutralaside p {
+#neutralaside,
+#neutralaside h2,
+#neutralaside p {
     background-color: lightblue;
 }
 
@@ -120,11 +128,14 @@ aside p {
 
 
 /*----------------Young----------------*/
-#youngaside, #youngaside h2, #youngaside p {
+#youngaside,
+#youngaside h2,
+#youngaside p {
     background-color: black;
 }
 
-#youngaside h2, #youngaside p {
+#youngaside h2,
+#youngaside p {
     color: white;
 }
 
@@ -134,7 +145,8 @@ aside p {
     border-top: 15px solid #8c5656;
 }
 
-#photobasedaside, #photobasedaside h2, #photobasedaside p {
+#photobasedaside,
+#photobasedaside h2,
+#photobasedaside p {
     background-color: #f2e0bd;
 }
-

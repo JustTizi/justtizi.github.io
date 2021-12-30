@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+/* --------------------------------Small screens-------------------------------- */
+* {
+    color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #202020;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+i {
+    padding-right: 10px;
+}
+
+img.showonsmall {
+    margin: 0 auto;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    max-width: 95%;
+    filter: saturate(30%);
+    transition: all 0.5s 0s ease;
+}
+
+img.showonsmall:hover {
+    filter: none;
+}
+
+.hideonsmall {
+    display: none;
+}
+
+.showonsmall {
+    display: block;
+}
+
+/* --------------------------------Medium screens-------------------------------- */
+@media screen and (min-width: 768px) {
+    * {
+        font-size: 1.1rem;
+    }
+
+    main {
+        margin: 30px;
+        padding: 20px;
+        border: 1px solid white;
+    }
+
+    header,
+    footer {
+        margin: 10px;
+        padding: 2px 10px;
+        background-color: #181818;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em
+    }
+
+    img.showonmedium {
+        margin: 0 auto;
+        max-width: 95%;
+    }
+
+
+    .hideonmedium {
+        display: none;
+    }
+
+    .showonmedium {
+        display: block;
+    }
+}
+
+/* --------------------------------Large screens-------------------------------- */
+@media screen and (min-width: 1024px) {
+    * {
+        font-size: 1.2rem;
+    }
+
+    body {
+        background-image: url('../images/pexels-soumil-kumar-735911.jpg');
+    }
+
+    main {
+        margin: 0 100px;
+    }
+
+    section {
+        margin: 0;
+    }
+
+    section,
+    header,
+    main,
+    footer {
+        background-color: black;
+        border: none;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .hideonlarge {
+        display: none;
+    }
+
+    .showonlarge {
+        display: block;
+    }
+}
