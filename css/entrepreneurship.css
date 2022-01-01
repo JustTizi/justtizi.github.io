@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+nav li {
+    width: 100%;
+}
+
+nav>ul {
+    list-style-type: none;
+}
+
+i {
+    margin-right: 5px;
+}

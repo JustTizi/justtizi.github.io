@@ -7,21 +7,31 @@
     <meta name="description" content="A portfolio website made by a student at Thomas More Geel.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Tizi's Portfolio</title>
 </head>
 
 <body>
-
-    <svg width="100px" height="100px">
-        <circle cx="0" cy="0" r="50px" fill="yellow" />
-        <line x1="5" y1="55" x2="5" y2="100" stroke="yellow" stroke-width="10" />
-        <line x1="20" y1="53" x2="40" y2="90" stroke="yellow" stroke-width="10" />
-        <line x1="40" y1="40" x2="75" y2="75" stroke="yellow" stroke-width="10" />
-        <line x1="50" y1="23" x2="90" y2="40" stroke="yellow" stroke-width="10" />
-        <line x1="55" y1="5" x2="100" y2="5" stroke="yellow" stroke-width="10" />
-    </svg>
-    <h1>Portfolio Tiziano Van der Waals</h1>
+    <header>
+        <svg width="100px" height="100px">
+            <circle cx="0" cy="0" r="50px" fill="yellow" />
+            <line x1="5" y1="55" x2="5" y2="100" stroke="yellow" stroke-width="10" />
+            <line x1="20" y1="53" x2="40" y2="90" stroke="yellow" stroke-width="10" />
+            <line x1="40" y1="40" x2="75" y2="75" stroke="yellow" stroke-width="10" />
+            <line x1="50" y1="23" x2="90" y2="40" stroke="yellow" stroke-width="10" />
+            <line x1="55" y1="5" x2="100" y2="5" stroke="yellow" stroke-width="10" />
+        </svg>
+        <h1 class="hideonsmall showonlarge">Portfolio Tiziano Van der Waals</h1>
+    </header>
+    <p id="quote">
+        I’ve missed more than 9,000 shots in my career. I’ve lost almost 300 games. 26 times
+        I’ve been
+        trusted to
+        take the game winning shot and missed. I’ve failed over and over and over again in my life and that
+        is
+        why I succeed.” - Michael Jordan
+    </p>
     <main>
         <article>
             <h2>About me</h2>
@@ -45,29 +55,36 @@
                 website), using Linux, IoT, Networking, you name it. <br />
                 Whatever I can get better at, I'll get better at!
             </p>
-            <h2>Design</h2>
+            <img src="images/pexels-fwstudio-139309.jpg" alt="Photo of wood" class="banner">
             <nav>
                 <ul>
-                    <li><a href="images.html">Images</a></li>
-                    <li><a href="fontscolors.html">Colors and fonts</a></li>
-                </ul>
-            </nav>
-            <h2>Tech</h2>
-            <nav>
-                <ul>
-                    <li><a href="toptech.html">Top tech sites</a></li>
-                    <li><a href="retro.html">Retro stuff</a></li>
-                </ul>
-            </nav>
-            <h2>Projects</h2>
-            <nav>
-                <ul>
-                    <li>Bootstrap</li>
+                    <li>
+                        <h2><i class="fas fa-pencil-ruler"></i>Design</h2>
+                        <ul>
+                            <li><a href="images.html">Images</a></li>
+                            <li><a href="fontscolors.html">Colors and fonts</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2><i class="fas fa-robot"></i>Tech</h2>
+                        <ul>
+                            <li><a href="toptech.html">Top tech sites</a></li>
+                            <li><a href="retro.html">Retro stuff</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2><i class="fas fa-chart-pie"></i>Projects</h2>
+                        <ul>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </article>
-        <footer>Links to <a href="https://www.pexels.com/@tiziano-143460652">Pexels</a> - <a
-                href="https://github.com/JustTizi">GitHub</a> - <a href="#">top of page</a></footer>
+        <footer>
+            Links to <a href="https://www.pexels.com/@tiziano-143460652"><i class="fas fa-camera"></i>Pexels</a> -
+            <a href="https://github.com/JustTizi"><i class="fab fa-github"></i>GitHub</a> - <a href="#">top of page</a>
+        </footer>
     </main>
 </body>
 

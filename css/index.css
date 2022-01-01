@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&?family=Playfair+Display&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+/* --------------------------------Small screens-------------------------------- */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header,
+footer {
+    max-width: 100%;
+}
+
+header {
+    text-align: center;
+    background-color: lightblue;
+}
+
+footer {
+    color: white;
+    background-color: grey;
+    padding: 8px;
+    text-align: center;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+nav {
+    background-color: lightgrey;
+    padding: 8px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li i {
+    margin-right: 8px;
+}
+
+li>ul>li {
+    margin: 10px;
+    margin-left: -40px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+#quote {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 1.2em;
+    padding: 8px;
+    margin: 10px;
+    width: 95%;
+}
+
+.banner {
+    height: 40px;
+    width: 100%;
+}
+
+.hideonsmall {
+    display: none;
+}
+
+.showonsmall {
+    display: block;
+}
+
+/* --------------------------------Large screens-------------------------------- */
+@media screen and (min-width: 768px) {
+    header {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        align-content: center;
+        justify-content: stretch;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        flex-basis: 100%;
+        flex: 1 1 auto;
+        width: 100%;
+    }
+
+    .quote {
+        position: relative;
+        animation: fade-in 6s;
+    }
+
+    @keyframes fade-in {
+        from {
+            margin: -200%;
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    a {
+        transition: transform 300ms, background-color 200ms, color 200ms;
+    }
+
+    a:hover{
+        transform: scale(1.2);
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+    
+    .hideonlarge {
+        display: none;
+    }
+
+    .showonlarge {
+        display: block;
+    }
+}
