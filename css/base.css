@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -172,3 +173,145 @@ span {
     margin-left: 40px;
 }
 
+.btn2 span i {
+    height: 70px;
+    width: 70px;
+    background: #fff;
+    color: #ef0454;
+    font-size: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 10px 8px rgb(3 12 29 / 8%);
+    margin-right: 20px;
+    transition: ease 0.30s;
+}
+
+.btn2 span i:hover {
+    background: #ef0454;
+    color: #fff;
+}
+
+.social {
+    position: absolute;
+    top: 50%;
+    padding: 0 7%;
+    transform: translateY(-50%);
+}
+
+.social ul li {
+    margin: 20px 0;
+}
+
+.social ul li i {
+    font-size: 22px;
+    color: #161616;
+    transition: all 0.30s;
+}
+
+.social ul li i:hover {
+    transform: translateY(-5px);
+    color: #ef0454;
+}
+
+@media screen and (max-width: 1380px) {
+    header {
+        padding: 18px 2%;
+        transition: 0.2s;
+    }
+
+    section {
+        padding: 0 2%;
+        transition: 0.2s;
+    }
+
+    .social {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    header {
+        padding: 14px 2%;
+        transition: 0.2s;
+    }
+
+    #menu-icon {
+        display: initial;
+    }
+
+    .text h1 {
+        font-size: 78px;
+        transition: 0.2s;
+    }
+
+    .text h2 {
+        font-size: 58px;
+        transition: 0.2s;
+    }
+
+    .text p {
+        font-size: 17px;
+        transition: 0.2s;
+    }
+
+    .btn {
+        height: 50px;
+        line-height: 50px;
+        padding: 0 28px;
+    }
+
+    .btn2 {
+        margin-left: 20px;
+    }
+
+    .btn2 span i {
+        height: 50px;
+        width: 50px;
+        font-size: 30px;
+    }
+
+    .navbar {
+        position: absolute;
+        top: -700px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: #ef0454;
+        text-align: left;
+        transition: all 0.35s ease;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 1rem;
+        margin: 1.3rem;
+        color: #fff;
+        border-left: 2px solid #fff;
+    }
+
+    .navbar a:hover {
+        color: #161616;
+        background: #fff;
+    }
+
+    .navbar a::after {
+        display: none;
+    }
+
+    .navbar.active {
+        top: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    section {
+        padding: 0 3%;
+    }
+
+    header {
+        padding: 14px 3%;
+    }
+}
