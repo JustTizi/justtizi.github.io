@@ -6,13 +6,23 @@ menu.onclick = () => {
     navbar.classList.toggle('active')
 }
 
-const sr = ScrollReveal ({
+const sr = ScrollReveal({
     distance: '80px',
     duration: 2800,
     reset: true
 })
 
-sr.reveal('.container, .social', {delay: 200, origin: 'left'})
-sr.reveal('header', {delay: 50, origin: 'top'})
+sr.reveal('.project', {
+    delay: 50,
+    origin: 'left'
+})
+sr.reveal('.container, .social', {
+    delay: 200,
+    origin: 'left'
+})
+sr.reveal('header', {
+    delay: 50,
+    origin: 'top'
+})
 
 console.log("JavaScript succesfully loaded!");
