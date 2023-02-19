@@ -163,36 +163,6 @@ span {
     justify-content: center;
 }
 
-.btn2 {
-    font-size: 14px;
-    font-weight: 600;
-    color: #161616;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 40px;
-}
-
-.btn2 span i {
-    height: 70px;
-    width: 70px;
-    background: #fff;
-    color: #ef0454;
-    font-size: 40px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    box-shadow: 0px 10px 8px rgb(3 12 29 / 8%);
-    margin-right: 20px;
-    transition: ease 0.30s;
-}
-
-.btn2 span i:hover {
-    background: #ef0454;
-    color: #fff;
-}
-
 .social {
     position: absolute;
     top: 50%;
@@ -260,16 +230,6 @@ span {
         height: 50px;
         line-height: 50px;
         padding: 0 28px;
-    }
-
-    .btn2 {
-        margin-left: 20px;
-    }
-
-    .btn2 span i {
-        height: 50px;
-        width: 50px;
-        font-size: 30px;
     }
 
     .navbar {
