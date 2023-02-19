@@ -28,6 +28,7 @@ header {
     height: auto;
     text-decoration: none;
     color: #fc00ff;
+    font-weight: 300;
 }
 
 .navbar {
@@ -186,6 +187,14 @@ span {
     transform: translateY(-5px);
     color: #ef0454;
 }
+
+
+
+.project > * {
+    width: 45%;
+    border-radius: 3px;
+}
+
 
 @media screen and (max-width: 1380px) {
     header {

@@ -12,7 +12,7 @@ const sr = ScrollReveal ({
     reset: true
 })
 
-sr.reveal('.text, .social', {delay: 200, origin: 'left'})
+sr.reveal('.container, .social', {delay: 200, origin: 'left'})
 sr.reveal('header', {delay: 50, origin: 'top'})
 
 console.log("JavaScript succesfully loaded!");
