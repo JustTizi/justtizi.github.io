@@ -26,6 +26,8 @@ header {
     max-width: 100%;
     width: 120px;
     height: auto;
+    text-decoration: none;
+    color: #fc00ff;
 }
 
 .navbar {
