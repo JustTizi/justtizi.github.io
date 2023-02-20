@@ -190,11 +190,15 @@ span {
 
 
 
-.project > * {
+.project>* {
     width: 45%;
     border-radius: 3px;
 }
 
+.contact {
+    text-align: center;
+    line-height: 2;
+}
 
 @media screen and (max-width: 1380px) {
     header {
@@ -261,12 +265,13 @@ span {
         margin: 1.3rem;
         color: #fff;
         border-left: 2px solid #fff;
-        transition: all 0.35s ease;
+        transition: ease 0.2s;
     }
 
     .navbar a:hover {
         color: #161616;
         background: #fff;
+        transform: translateX(10px);
     }
 
     .navbar a::after {
