@@ -200,6 +200,12 @@ span {
     line-height: 2;
 }
 
+.gamelink {
+    text-align: center;
+    line-height: 2;
+    color: lightcoral;
+}
+
 @media screen and (max-width: 1380px) {
     header {
         padding: 18px 2%;
