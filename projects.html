@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="nav">
         <a href="#" class="logo">Tiziano Van der Waals</a>
         <div class="bx bx-menu" id="menu-icon"></div>
 
@@ -37,63 +37,85 @@
         </div>
     </section>
 
-    <section class="main_content">
-        <div class="project project_one container">
-            <div class="project_one_text project_text">
-                <h1>Project Requirements Analysis</h1>
-                <p>
-                    For the course Requirements Analysis, I had to get together with a team to figure out what our
-                    customer wanted in his web application. The app was for a hockeyclub who wanted to move their
-                    administrative tasks from paper to a better platform.
-                </p>
-            </div>
-            <div class="project_one_image project_image">
-                <img src="img/requirements_analysis.png" alt="Requirements analysis" />
-            </div>
-        </div>
-
-        <div class="project project_two container">
-            <div class="project_two_image project_image">
-                <img src="img/php_website.png" alt="PHP website" />
-            </div>
-            <div class="project_two_text project_text">
-                <h1>PHP Website</h1>
-                <p></p>
+    <main class="container main_content">
+        <div class="row">
+            <div class="project project_one container">
+                <div class="project_one_text project_text">
+                    <h1>Project Requirements Analysis</h1>
+                    <p>
+                        For the course Requirements Analysis, I had to get together with a team to figure out what our
+                        customer wanted in his web application. The app was for a hockeyclub who wanted to move their
+                        administrative tasks from paper to a better platform.
+                    </p>
+                </div>
+                <div class="project_one_image project_image">
+                    <img src="img/ra/ra_model.png" alt="Requirements analysis model" />
+                </div>
             </div>
         </div>
 
-        <div class="project project_three container">
-            <div class="project_three_text project_text">
-                <h1>Math Game</h1>
-                <p>
-                    For the course DevOps &amp; Security, I created a small math game you can play. The game is made
-                    with
-                    Windows Forms C#. The game is extremely simple and you can play it yourself by downloading the game
-                    from my
-                    <a href="https://github.com/JustTizi/DevOps-Case-Study" class="gamelink">
-                        <i class="bx bxl-github"></i>Github.</a>
-                    <br />
-                    (Beware of the Albert Einstein difficulty though, it's very hard! 🤯)
-                </p>
-            </div>
-            <div class="project_three_image project_image">
-                <img src="img/game.png" alt="Math game" />
-            </div>
-        </div>
-
-        <div class="project project_four container">
-            <div class="project_four_image project_image"></div>
-
-            <div class="project_four_text project_text">
-                <h1>Automatic fish feeder</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aspernatur accusantium cumque
-                    excepturi non tempora minima ducimus quaerat. Ullam delectus iste voluptates illo eligendi? Ducimus
-                    ratione et saepe deserunt dignissimos voluptates quos possimus eum error natus, vitae dolore
-                    similique ipsam, deleniti, esse porro sequi? Nisi quos error veniam tempora beatae!</p>
+        <div class="row">
+            <div class="project project_two container">
+                <div class="project_two_text project_text">
+                    <h1>PHP Website</h1>
+                    <p>During my second year, we needed to make a webapp using PHP Laravel. The project is still
+                        ongoing, but is to be finished soon.<br />
+                        This project is made with a team of 6 people. We are making a website for a fictional
+                        bikingclub. In the group, I have the role of Scrum Master. I make sure that the team is working
+                        on the right things and that we are working efficiently. Of course, I also help with the pages
+                        and code of the website.
+                        Below is a screenshot of the <a href="https://plattebergtveb.be">website</a>.
+                    </p>
+                </div>
+                <div class="project_two_image project_image">
+                    <img src="img/php/php_home.jpg" alt="PHP website" />
+                </div>
             </div>
         </div>
 
-    </section>
+        <div class="row">
+            <div class="project project_three container">
+                <div class="project_three_text project_text">
+                    <h1>Math Game</h1>
+                    <p>
+                        For the course DevOps &amp; Security, I created a small math game you can play. The game is made
+                        with
+                        Windows Forms C#. The game is extremely simple and you can play it yourself by downloading the
+                        game
+                        from my
+                        <a href="https://github.com/JustTizi/DevOps-Case-Study" class="gamelink">
+                            <i class="bx bxl-github"></i>Github.</a>
+                        <br />
+                        (Beware of the Albert Einstein difficulty though, it's very hard! 🤯)
+                    </p>
+                </div>
+                <div class="project_three_image project_image">
+                    <img src="img/mq/mq_home.png" alt="Math game start screen" />
+                    <img src="/img/mq/mq_game.png" alt="Math game play screen" />
+                    <img src="img/mq/mq_gg.png" alt="Math game game over screen" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="project project_four container">
+                <div class="project_four_text project_text">
+                    <h1>Automatic fish feeder</h1>
+                    <p>For the course IoT Essentials, I had to create an automatic fish feeder.
+                        The fish feeder was relatively advanced, as it had to be able to feed the fish at a certain
+                        time, as well as track some statistics like the water level. It had to be able to display these
+                        stats on an LCD connected to the Raspberry Pi. I had a ton of fun building this project and
+                        coding it to be able to do all these things. I also learned a lot about the Raspberry Pi and
+                        connecting devices to it.
+                    </p>
+                </div>
+                <div class="project_four_image project_image">
+                    <img src="img/ff/construct.png" alt="Fish feeder" />
+                </div>
+            </div>
+        </div>
+
+    </main>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script type=" text/javascript" src="js/index.js"></script>

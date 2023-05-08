@@ -31,6 +31,10 @@ header {
     font-weight: 300;
 }
 
+.nav {
+    background-color: white;
+}
+
 .navbar {
     display: flex;
 }
@@ -44,6 +48,7 @@ header {
     font-weight: 500;
     font-size: 1rem;
     padding: 10px 20px;
+    text-decoration: none !important;
 }
 
 .navbar a::after {
@@ -89,7 +94,7 @@ header {
     transform: translateY(-10px);
 }
 
-section {
+section, main {
     padding: 0 16%;
 }
 
@@ -103,6 +108,7 @@ section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
+    padding-top: 3%;
 }
 
 .text {
@@ -204,6 +210,43 @@ span {
     text-align: center;
     line-height: 2;
     color: lightcoral;
+}
+
+.small {
+    font-size: 0.9rem;
+}
+
+.photo {
+    border: 2px solid #ef0454;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.photo img {
+    display: block;
+    height: auto;
+}
+
+a {
+    text-decoration: underline;
+    color: #fc00ff;
+}
+
+.project_image {
+    margin: 2% 0;
+}
+
+.project_image img {
+    width: 150%;
+    height: auto;
+}
+
+.project_three .project_image img {
+    width: 100%;
+}
+
+.row {
+    padding: 5% 0;
 }
 
 @media screen and (max-width: 1380px) {
